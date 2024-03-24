@@ -40,7 +40,7 @@ position: fixed;
     background-color: #8C8C8C;
 }
 #home{
-    background-image: url(../images/1.jpg);
+    background-image: url(1.jpg);
     width: 100%;
     height: 130vh;
     background-repeat: no-repeat;
