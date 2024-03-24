@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: arial, sans-serif;
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+ul#menu{
+position: fixed;
+    background-color: #000;
+    line-height: 60px;
+    width: 100%;
+}
+
+
+
+#menu li {
+
+    display: inline;
+}
+
+#menu a:link, a:visited{
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    padding: 25px;
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 2px 2px #593202;
+}
+
+#menu a:hover, a:active{
+    background-color: #8C8C8C;
+}
+#home{
+    background-image: url(../images/1.jpg);
+    width: 100%;
+    height: 130vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+h1{
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+#about{
+    background-color: #fff;
+    height: 100vh;
+    padding: 50px;
+    color: #000;
+    font-size: 1.8rem;
+    text-align: justify;
+}
+
+#gallery{
+    color: #fff;
+    background-color: #000;
+    height: 100vh;
+    font-size: 2rem;
+    padding: 50px;
+    text-align: center center;
+}
+
+#gallery .img{
+    width: 500px;
+    border: 1px #fff solid;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px #000;
+}
+
+#lances{
+    background-color: #000;
+    color: #fff;
+    height: 100vh;
+    text-align: center;
+    padding: 50px;
+    font-size: 4rem;
+}
